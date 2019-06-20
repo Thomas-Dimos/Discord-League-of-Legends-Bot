@@ -24,6 +24,10 @@ async def on_message(message):
         msg = 'Hello {0.author.mention}'.format(message)
         await channel.send(msg)
         return
+    elif message.content.startswith('!assemble'):
+        msg = '@First#8078 @polluxikos#4675 @gangsterPL#1759'.format(message)
+        await channel.send(msg)
+        return
     elif message.content.startswith('!victory'):
         msg = '{0.author.mention} is doing the victory dance'.format(message)
         embed = discord.Embed(title = '', description = msg)

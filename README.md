@@ -13,7 +13,7 @@ Copy this discord invite link in the browser and select the server you want to a
   (Supports partial names like 'heimer' instead of 'heimerdinger', 'j4' instead of 'jarvan', 'malza' instead of 'malzahar' etc.  
   
 # Screenshot(s)  
-https://postimg.cc/vxzkV3tL
+![image](https://postimg.cc/vxzkV3tL)
 
 # Please mind  
 * that the bot is online only when I am online due to not hosting it in an online server  

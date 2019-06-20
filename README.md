@@ -4,12 +4,12 @@ This is a bot module for discord that posts Rune Builds for champions from Leagu
 All information about Rune Builds are scraped from champion.gg and then uploaded to MongoDB.  
 
 # Try the bot in your server  
-Click on this discord invite link and select the server you want to add it to  
+Copy this discord invite link in the browser and select the server you want to add it to:  
 ```https://discordapp.com/oauth2/authorize?client_id=589192232943484929&scope=bot&permissions=1 ```  
 
 # Usage
 **examples:**  
-```!<enter champion name>``` posts Runes Build for <enter champion name> champion.  
+```!<enter champion name here>``` posts Runes Build for ```<enter champion name here>``` champion.  
   (Supports partial names like 'heimer' instead of 'heimerdinger', 'j4' instead of 'jarvan', 'malza' instead of 'malzahar' etc.  
 
 # Please mind  

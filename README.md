@@ -17,5 +17,9 @@ Copy this discord invite link in the browser and select the server you want to a
 
 # Please mind  
 * that the bot is online only when I am online due to not hosting it in an online server  
-* ```www.champion.gg``` sometimes does not have enough data for display for some champions that are not popular
+* ```www.champion.gg``` sometimes does not have enough data for display for some champions that are not popular  
+# Stuff Used  
+* discord.py  
+* PyMongo  
+* BeautifulSoup4  
 

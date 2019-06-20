@@ -2,6 +2,7 @@ import discord
 from pymongo import MongoClient
 
 champions = []
+membersID = ['<@302504449551630336>','<@226501491094061057>', '<@360759141028986891>']
 
 #---------MongoDB Vars---------#
 client = MongoClient("enter mongodb client here")
@@ -25,8 +26,7 @@ async def on_message(message):
         await channel.send(msg)
         return
     elif message.content.startswith('!assemble'):
-        msg = '@First#8078 @polluxikos#4675 @gangsterPL#1759'.format(message)
-        await channel.send(msg)
+        await client.send_message(message.channel, 'PLIZ assemble for riot %s %s %s' % membersID[0],% membersID[1],% membersID[2])
         return
     elif message.content.startswith('!victory'):
         msg = '{0.author.mention} is doing the victory dance'.format(message)

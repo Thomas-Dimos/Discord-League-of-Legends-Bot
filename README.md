@@ -10,7 +10,7 @@ Copy this discord invite link in the browser and select the server you want to a
 # Usage
 **examples:**  
 ```!<enter champion name here>``` posts Runes Build for ```<enter champion name here>``` champion.  
-  (Supports partial names like 'heimer' instead of 'heimerdinger', 'j4' instead of 'jarvan', 'malza' instead of 'malzahar' etc.  
+  (Supports partial names like 'heimer' instead of 'heimerdinger', 'j4' instead of 'jarvan', 'malza' instead of 'malzahar' etc.)  
   
 # Screenshot(s)  
 ![image](https://i.postimg.cc/K4S2CWKV/Capture.png)

@@ -8,8 +8,9 @@ Click on this discord invite link and select the server you want to add it to
 ```https://discordapp.com/oauth2/authorize?client_id=589192232943484929&scope=bot&permissions=1 ```  
 
 # Usage
-examples:  
-```!vlad``` posts Runes Build for Vladimir champion. 
+**examples:**  
+```!<enter champion name>``` posts Runes Build for <enter champion name> champion.  
+  (Supports partial names like 'heimer' instead of 'heimerdinger', 'j4' instead of 'jarvan', 'malza' instead of 'malzahar' etc.  
 
 # Please mind  
 * that the bot is online only when I am online due to not hosting it in an online server  

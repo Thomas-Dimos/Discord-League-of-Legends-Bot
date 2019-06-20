@@ -21,11 +21,11 @@ async def on_message(message):
         return
 
     if message.content.startswith('!hello'):
-        msg = 'Hello retarded autista {0.author.mention}'.format(message)
+        msg = 'Hello {0.author.mention}'.format(message)
         await channel.send(msg)
         return
     elif message.content.startswith('!victory'):
-        msg = 'Autista {0.author.mention} is doing the victory dance'.format(message)
+        msg = '{0.author.mention} is doing the victory dance'.format(message)
         embed = discord.Embed(title = '', description = msg)
         embed.set_image(url = 'https://media1.tenor.com/images/26ff317c89f308d16cd5b9c14dd6b584/tenor.gif')
         await message.channel.send(content = None, embed = embed)
@@ -48,7 +48,7 @@ async def on_message(message):
                 await channel.send(msg)
                 return
 
-        await channel.send("agamis")
+        await channel.send("command not found")
         return
 
 
